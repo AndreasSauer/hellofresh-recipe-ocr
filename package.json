@@ -1,0 +1,27 @@
+{
+  "name": "hellofresh-ocr",
+  "version": "1.0.0",
+  "description": "ocr project to import hellofresh receipts",
+  "main": "index.js",
+  "scripts": {
+    "import": "ts-node src/index.ts",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^28.1.1",
+    "jest": "^28.1.1",
+    "ts-jest": "^28.0.4",
+    "ts-jest-mock": "^1.1.32",
+    "ts-mockito": "^2.6.1",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "jimp": "^0.16.1",
+    "node-tesseract-ocr": "^2.2.1",
+    "pdf2json": "^2.0.1",
+    "pdf2pic": "^2.1.4"
+  }
+}
